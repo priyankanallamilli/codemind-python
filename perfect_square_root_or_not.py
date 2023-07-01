@@ -1,8 +1,9 @@
-import math
-n= int(input())
-
-r = math.sqrt(n)
-if int(r + 0.5) ** 2 == n:
+n=int(input())
+c=0
+for i in range(n):
+    if n==i*i:
+        c=1
+if c==1:
     print("True")
 else:
     print("False")
