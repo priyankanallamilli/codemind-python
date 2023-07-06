@@ -1,11 +1,9 @@
 n=int(input())
-c=[]
+e=[]
 for i in range(1,n):
     if n%i==0:
-        c.append(i)
-d=sum(c)
-if d>n:
+        e.append(i)
+if sum(e)>=n:
     print("True")
 else:
     print("False")
-    
